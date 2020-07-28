@@ -1,0 +1,42 @@
+arthropoda <-- exoskeleton
+arthrodpod <-- arthropoda
+arachnida <-- arthrodpod & eight_legs
+spiders <-- arachinida
+insecta <-- arthropod & six_legs
+insects <-- insecta
+malacostraca <-- arthropoda & three_segments
+
+
+echinodermata <-- spiny_skinned
+sea_urchin <-- echinodermata & spiky
+
+
+poifera <-- no_organs
+sponges <-- poifera
+
+
+mollusk <-- mollusca
+snail <-- mollusk & has_shell
+
+
+invertebrate <-- no_backbone
+cnidaria <-- invertebrate
+
+
+vertebrate <-- backbone
+chordata <-- vertebrate
+mammalia <-- chordata & makes_milk
+mammal <-- mammalia
+artiodactyla <-- mammal & aquatic
+whale <-- artiodactyla & large
+dolphin <-- artiodactyla & small
+aves <-- chordata & has_feathers
+reptilia <-- chordata & cold_blooded
+reptile <-- reptilia
+snake <-- reptile & no_legs
+
+
+annelida <-- worm_like & segmented
+nematoda <-- worm_like & round
+platyheminthes <-- worm_like & flat
+flatworm <-- platyheminthes
